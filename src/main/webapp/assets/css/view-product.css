@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+.container1{
+	display: flex;
+}
+.left{
+	flex-basis: 15%;
+}
+.right{
+	flex-basis: 85%;
+}

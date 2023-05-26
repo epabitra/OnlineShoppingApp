@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 5rem;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 20px;
+}
+
+.left img{
+   width: 100%;
+}
+
+.right img{
+    width: 50px;
+    height: 50px;
+}
+
+.login_frm{
+    padding: 10px 30px;
+    margin-top: 10px;
+    background-color: rgb(225, 225, 252);
+}
+
+.bg-transparent{
+    border-color: black;
+}
+
+.frm-submit{
+    width: 100%;
+}
